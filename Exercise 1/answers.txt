@@ -1,0 +1,9 @@
+1. I found NumPy to be easier to work with as compared to Pandas. The reason for this was that NumPy had a much simpler syntax,
+but to do the same task in Pandas, the syntax was long and also a bit more complex. The date_to_month function was easier for NumPy but was hard to figure out for Pandas.
+The NumPy code is easier to read, due to its simpler syntax.
+
+2. The running times for the two functions were:
+pivot_months_loops: 555 ms +- 50 ms per loop, 1 loop
+pivot_months_pandas: 20.2 ms +- 1.12 ms per loop, 10 loops
+
+The reason that Pandas ran faster was that it uses the C string equivalent in Python, Numpy, which is faster.

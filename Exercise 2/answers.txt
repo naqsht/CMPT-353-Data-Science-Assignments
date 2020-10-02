@@ -1,0 +1,3 @@
+1. This calculation is equivalent to the equation of a line, y = mx + b. Where 'y' is the result of this calculation, that is a linear fit to the twitter ratings obtained, 'm' is the slope (best_fit.slope), 'x' is data['timestamp'] and 'b' is the intercept (best_fit.intercept).
+
+2. Since, created_at and timestamp basically represent the same thing, but with different values, this produces a fit line on the graph. Also, linregress uses timestamp (a float value) to calculate slope and intercept for best fit.
