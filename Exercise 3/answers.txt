@@ -1,0 +1,8 @@
+1. While smoothing CPU temperature, I think the results I got with Kalman smoothing were better than LOESS smoothing, 
+the reason being that Kalman smoothing was more sensitive to the extreme values, while LOESS smoothing was not. 
+Whenever there was an outlier, the value in Kalman filtering changed significantly, while in LOESS smoothing, similar changes are not visible.
+So, Kalman smoothens the data while still providing the sensitive information (here, ouliers), unlike LOESS smoothing.
+
+2. Data like timestamp, course and speed can also be used to make better predictions about the next latitude and longitude. We can take differences between timestamps
+and multiple that by the speed for that respective time period to make a prediction about the distance travelled. That is, Speed * (Difference between timestamps).
+However (just to be completely accurate), I believe that timestamps with the least difference should be considered, so that the direction of travel doesn't alter the prediction much. 
