@@ -1,0 +1,4 @@
+1. Since there is not much correlation between temperature and population density, so I believe that it is not a good way to predict population density.
+
+2. Working with a compressed file might be easier because it has more information in a smaller file size (lesser bits, almost 50% to 90% smaller than original file size),
+whereas a decompressed file has that information in a much larger file size. So, working with a compressed file is efficient for the memory processing and hence faster to work with.
