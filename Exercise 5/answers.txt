@@ -1,0 +1,7 @@
+1. The Square Root transformation got me the closest to satisfying assumptions of a T-test.
+2. I could reject the null hypothesis, because the initial Student T-Test has a p-values < 0.05.
+We do not obtain a normal distribution in that case.
+3. In my case, Square Root data did a better job at it.
+4. From the data, we can see that mean of comments for weekdays is higher than the same for weekends. But we also need to consider that
+we have more data for weekdays as compared to weekends, because we have 5 weekdays and 2 weekends in every week.
+So, a concrete conclusion about this cannot be drawn from the data given.
