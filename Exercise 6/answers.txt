@@ -1,0 +1,13 @@
+1. For both Chi-Square and Mann-Whitney-U Test, the p values were mostly greater than 0.05. So, overall I believe that we are not hacking p-values. 
+But, for the instructors, we got values of 0.052 and 0.0225, for Chi2 and Mann-Whitney_U Test respectively. Its just for those values that 
+I am not very confident while rejecting the null hypothesis (new interface is used more frequently).
+
+2. If we had done T-tests between each pair of sorting implementation results, we would run 21 tests. In that case, we would have an effective alpha of 0.659, 
+which is not good, or actually, it is bad. We should do a Bonferroni Correction, according to which, p < 0.05/21 = 0.0024.
+
+3. The ranking for the implementations (slowest to fastest) is the following:
+merge1, qs2, qs4, qs5, q3, qs1, partition_sort
+The ones that could not be distinguished are qs3, qs4 and qs5 (because they have very similar values).
+Although, qs2 is also very similar to them, but it still seems distinguishable.
+
+ 
