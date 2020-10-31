@@ -1,0 +1,4 @@
+1. Yes, residual are close-enough to being normal. Also, the pvalue is really small, so we can 
+reasonably conclude that the ratings are increasing.
+
+2. Yes, the new "better" prediction lets the Kalman Filter do a better job, to capture the true signal.
