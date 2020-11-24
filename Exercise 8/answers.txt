@@ -1,0 +1,7 @@
+1. Random Forest and KNN models gave very similar results. However, Random Forest Classifier was
+the best option for me, because it gave best results, consistently. We can choose the number of 
+estimators and see which one works best. For me, n_estimators=150 turned out to be the best option.
+
+2. Yes, the model seems to make reasonable mistakes while predicting. In addition to the given features, Average Temperature 
+for each month is a feature which can improve the prediction results. The reason being that, Min and Max temperature give us
+the extreme values, while Average Temperature tends to give an overall picture, which might be helpful. 
