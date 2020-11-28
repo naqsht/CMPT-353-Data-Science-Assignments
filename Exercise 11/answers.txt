@@ -1,0 +1,3 @@
+1.I used cache(), where I thought I would need that data frame. Not using cache() would result in Spark calculating those dataframes again and also, the run times would have be longer.
+
+2. Using broadcast() results in way shorter running times as compared to not using broadcast, in the "best author" program.
